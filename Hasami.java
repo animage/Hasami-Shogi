@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -21,7 +20,7 @@ class Hasami extends JFrame{
 	    
 		add(dp,BorderLayout.CENTER);
 		pack();
-		setSize(1000,1000);
+		setSize(500,500);
 	}
 
     public static void main(String[] args){
@@ -39,8 +38,7 @@ class DrawPanel extends JPanel{
 
 	public void paintComponent(Graphics g){
 		g.setColor(Color.white);
-		g.fillRect(0,0,1000,1000);
-		g.setColor(Color.black);
+		g.fillRect(50,50,100,100);
 	}
 }
 
